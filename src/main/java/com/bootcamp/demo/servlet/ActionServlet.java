@@ -14,8 +14,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.bootcamp.demo.action.Action;
-import com.bootcamp.demo.action.CatalogAction;
-import com.bootcamp.demo.action.IndexAction;
 
 @WebServlet(urlPatterns = "*.do", loadOnStartup = 1)
 public class ActionServlet extends HttpServlet {
